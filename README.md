@@ -44,4 +44,6 @@ Diseñado para agregar bloques de tipo _menu_, los cuales adoptaran el diseño d
 
 Agrega información adicional de contacto
 
+### Demo
+![Demostración de las regiones](https://raw.githubusercontent.com/Tifon-/gob_cl/7.x-1.x/demo-region.png)
 
