@@ -78,7 +78,7 @@
  */
 ?>
 <div class="l-page">
-  <header class="l-header" role="banner">
+  <header class="l-header" style="background-image: url(<?php print $header_image_path ?>)" role="banner">
 
     <div class="l-header-wrapper">
       

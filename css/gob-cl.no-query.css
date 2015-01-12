@@ -597,7 +597,6 @@ p {
 
 /* line 1, ../sass/base/_header.scss */
 header.l-header {
-  background-image: url(../images/moneda.jpg);
   width: 100%;
   position: relative;
   background-size: 100% auto;
@@ -605,12 +604,12 @@ header.l-header {
   background-position: center;
   margin: 0 auto;
   margin-bottom: 20px; }
-  /* line 11, ../sass/base/_header.scss */
+  /* line 10, ../sass/base/_header.scss */
   header.l-header .l-header-wrapper {
     position: relative;
     height: 100%; }
 
-/* line 17, ../sass/base/_header.scss */
+/* line 16, ../sass/base/_header.scss */
 .site-slogan {
   font-size: 18px;
   color: white;
@@ -619,17 +618,17 @@ header.l-header {
   text-shadow: #000 1px 1px 5px;
   font-weight: 600; }
 
-/* line 25, ../sass/base/_header.scss */
+/* line 24, ../sass/base/_header.scss */
 .l-mini-branding {
   min-height: 50px; }
-  /* line 27, ../sass/base/_header.scss */
+  /* line 26, ../sass/base/_header.scss */
   .l-mini-branding .site-name {
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 20px;
     font-weight: 600; }
-    /* line 33, ../sass/base/_header.scss */
+    /* line 32, ../sass/base/_header.scss */
     .l-mini-branding .site-name a {
       color: #869DA9; }
 
