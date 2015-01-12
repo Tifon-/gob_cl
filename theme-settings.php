@@ -118,4 +118,8 @@ function gob_cl_theme_settings_form_submit($form, &$form_state) {
     $values['gob_cl_header_image_path'] = $file_upload;
   }
 
+  if (!empty($values['gob_cl_header_image_path'])) {
+    $values['gob_cl_header_image_path'] = _system_theme_settings_validate_path($values['gob_cl_header_image_path']);
+  }
+
 }
