@@ -26,7 +26,7 @@ function gob_cl_form_system_theme_settings_alter(&$form, &$form_state) {
     '#type'          => 'checkbox',
     '#title'         => t('Use default header image'),
     '#description'   => T('Check here if you want the theme to use the header image supplied with it.'),
-    '#default_value' => theme_get_setting('gob_cl_header_image_default', 'gob_cl'),
+    '#default_value' => theme_get_setting('gob_cl_header_image_default', $GLOBALS['theme_key']),
   );
 
   $form['gob_cl_image']['settings'] = array(
@@ -43,7 +43,7 @@ function gob_cl_form_system_theme_settings_alter(&$form, &$form_state) {
     '#type'          => 'textfield',
     '#title'         => t('Path to header image'),
     '#description'   => t("The path to the file you would like to use as your header image file instead of the default image."),
-    '#default_value' => theme_get_setting('gob_cl_header_image_path', 'gob_cl'),
+    '#default_value' => theme_get_setting('gob_cl_header_image_path', $GLOBALS['theme_key']),
   );
 
   $element = &$form['gob_cl_image']['settings']['gob_cl_header_image_path'];
