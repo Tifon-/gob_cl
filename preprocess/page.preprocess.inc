@@ -17,7 +17,6 @@ function gob_cl_preprocess_page(&$variables) {
   }
   else{
     // use custom image
-    dpm(theme_get_setting('gob_cl_header_image_path', 'gob_cl'));
     $variables['header_image_path'] = file_create_url( theme_get_setting('gob_cl_header_image_path', 'gob_cl'));
   }  
   
