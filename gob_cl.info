@@ -27,7 +27,6 @@ regions[help] = Help
 regions[top_first] = Top First
 regions[top_second] = Top Second
 regions[top_third] = Top Third
-regions[front_page] = Front Page
 regions[content] = Content
 regions[sidebar_first] = Sidebar First
 regions[sidebar_second] = Sidebar Second

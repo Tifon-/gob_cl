@@ -152,12 +152,7 @@
         <?php endif; ?>
         <?php print render($title_suffix); ?>
         
-
-        <?php if ($is_front): ?>
-        <?php print render($page['front_page']); ?>
-        <?php else: ?>
         <?php print render($page['content']); ?>
-        <?php endif ?>
         
         <?php // print $feed_icons; ?>
       </div>
