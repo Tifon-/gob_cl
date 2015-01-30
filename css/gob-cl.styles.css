@@ -604,6 +604,9 @@ textarea.form-textarea {
     padding: 0 !important;
     margin: -1px !important; }
 
+/**
+ * GobCL
+ */
 @font-face {
   font-family: 'gobCL';
   font-weight: 300;
@@ -624,78 +627,131 @@ textarea.form-textarea {
   font-weight: 900;
   font-style: normal;
   src: url("../fonts/gobcl_heavy.eot?") format("eot"), url("../fonts/gobcl_heavy.woff") format("woff"), url("../fonts/gobcl_heavy.ttf") format("truetype"); }
-/* line 26, ../sass/base/_general.scss */
+/**
+ * Open Sans
+ */
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/OpenSans/OpenSans-Italic.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-style: normal;
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-style: italic;
+  src: url("../fonts/OpenSans/OpenSans-LightItalic.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/OpenSans/OpenSans-Semibold.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../fonts/OpenSans/OpenSans-SemiboldItalic.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/OpenSans/OpenSans-BoldItalic.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/OpenSans/OpenSans-ExtraBold.ttf"); }
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf"); }
+/* line 102, ../sass/base/_general.scss */
 html {
   font-family: "Open Sans", sans-serif; }
 
-/* line 29, ../sass/base/_general.scss */
+/* line 105, ../sass/base/_general.scss */
 body {
   background: #e6e6e6;
   color: #475156;
   font-size: 14px; }
 
-/* line 34, ../sass/base/_general.scss */
+/* line 110, ../sass/base/_general.scss */
 a, a:visited {
   text-decoration: none;
   color: #475156; }
 
-/* line 38, ../sass/base/_general.scss */
+/* line 114, ../sass/base/_general.scss */
 a:hover {
   transition: .2s; }
 
 @font-size-default :14px;
-/* line 45, ../sass/base/_general.scss */
+/* line 121, ../sass/base/_general.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-family: "gobCL", Tahoma, Verdana, Segoe, sans-serif; }
 
-/* line 50, ../sass/base/_general.scss */
+/* line 126, ../sass/base/_general.scss */
 h1 {
   font-size: 14px;
   line-height: 1.4em;
   font-weight: 500; }
 
-/* line 55, ../sass/base/_general.scss */
+/* line 131, ../sass/base/_general.scss */
 h2 {
   font-size: 45px;
   line-height: 1.1em;
   font-weight: 500; }
 
-/* line 60, ../sass/base/_general.scss */
+/* line 136, ../sass/base/_general.scss */
 h3 {
   font-size: 32px;
   line-height: 1.1em;
   font-weight: 500; }
 
-/* line 65, ../sass/base/_general.scss */
+/* line 141, ../sass/base/_general.scss */
 h4 {
   font-size: 22px;
   line-height: 1.2em;
   font-weight: 500; }
 
-/* line 70, ../sass/base/_general.scss */
+/* line 146, ../sass/base/_general.scss */
 h5 {
   font-size: 18px;
   line-height: 1em;
   font-weight: 500; }
 
-/* line 75, ../sass/base/_general.scss */
+/* line 151, ../sass/base/_general.scss */
 h6 {
   font-size: 14px;
   line-height: 1em;
   font-weight: 700; }
 
-/* line 81, ../sass/base/_general.scss */
+/* line 157, ../sass/base/_general.scss */
 p {
   margin: 0 auto 15px;
   font-size: 14px; }
 
-/* line 86, ../sass/base/_general.scss */
+/* line 162, ../sass/base/_general.scss */
 .node__content {
   line-height: 180%;
   margin: 0 0 25px; }
 
-/* line 91, ../sass/base/_general.scss */
+/* line 167, ../sass/base/_general.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -706,7 +762,7 @@ p {
 /**
  * Basic
  */
-/* line 111, ../sass/base/_general.scss */
+/* line 187, ../sass/base/_general.scss */
 .l-region--bottom-first .block,
 .l-region--bottom-second .block,
 .l-region--bottom-third .block,
@@ -717,7 +773,7 @@ p {
   padding: 20px 20px 25px;
   border-bottom: 2px solid #bdc9d1;
   margin: 10px auto 20px; }
-  /* line 117, ../sass/base/_general.scss */
+  /* line 193, ../sass/base/_general.scss */
   .l-region--bottom-first .block .block__title,
   .l-region--bottom-second .block .block__title,
   .l-region--bottom-third .block .block__title,
