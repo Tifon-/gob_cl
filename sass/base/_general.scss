@@ -117,14 +117,14 @@ a:hover{
 
 @font-size-default:14px;
 
-// Títulos
+// Titles
 h1, h2, h3, h4, h5, h6 {
   margin-top:0;
   @include gobcl();
 }
 
 h1 {
-  font-size:floor(($font-size-default)); // Sólo usado en h1#logo-main
+  font-size:floor(($font-size-default)); // Only used in h1#logo-main
   line-height:1.4em;
   font-weight:500;
 }

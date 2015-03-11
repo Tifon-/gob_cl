@@ -8,18 +8,13 @@
   .content-wrapper{
     background: white;
     padding: 25px;
-    // overflow: auto;
-
-    img.imagen-destacada{
-      width: 100%;
-      height: auto;
-    }
 
     span.meta{
       margin: 30px 25px 0px;
       clear: both;
       display: block;
     }
+
     h1.title{
       color: #0f69b4;
       padding-bottom: 20px;
@@ -35,75 +30,15 @@
   }
 }
 
-// Front page
-.front{
-  .l-content{
-
-
-    .block{
-      .block__title{
-        font-size: 18px;
-        line-height: 1em;
-        font-weight: 500;
-        margin: 0 auto 15px;
-      }
-
-      .block__content .views-row{
-        background: white;
-        overflow: auto;
-        border-bottom: 2px solid #bdc9d1;
-        margin: 0 0 20px;
-      }
-
-      // Noticia destacada
-      .block__content .block-noticias-destacadas{
-        
-        .views-field-field-noticia-imagen img{
-          width: 100%;
-        }
-        .views-field-title{
-          padding: 10px;
-          float: left;
-          width: 50%;
-        }
-        .views-field-field-noticia-fecha,
-        .views-field-body{
-          float: right;
-          width: 50%;
-          padding: 10px;
-        }
-      }
-
-    } 
-  }
-}
-
-
 
 /**
- * Background
- *
- * Por defecto el contenido tiene un fondo blanco, por lo que en 
- * algunos casos (listas de noticias, por ejemplo) hay que quitarlo
- * 
- */
-.front ,
-.page-ministros,
-.page-noticias{
-  
-  .content-wrapper{
-    background: none;
-  } 
-}
-
-/**
- * Contenido
+ * Content
  */
 .node__content {
 
-  color:$gris-oscuro;
+  color: $gray-dark;
   a {
-    color:$gob-azul;
+    color:$gob-blue;
     &:hover {
       color:#045282;
       text-decoration:underline;
@@ -118,11 +53,11 @@
     font-weight:300;
   }
   h5 {
-    color:$gob-azul;
+    color:$gob-blue;
     margin:0 0 10px;
   }
   blockquote {
-    border-left:2px solid $gob-azul;
+    border-left:2px solid $gob-blue;
     margin:0;
     padding:0 0 0 20px;
     line-height:160%;
@@ -164,7 +99,6 @@
     }
   }
 }
-
 
 ul.pager{
   text-align: left;

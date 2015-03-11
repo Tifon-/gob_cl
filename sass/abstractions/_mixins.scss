@@ -16,7 +16,7 @@
  * Buttons
  */
 @mixin gob-cl-button-default() {
-	@include sassy-button('flat', 3px, 12px, $gob-azul, darken($gob-azul, 10%), white, 'inset')
+	@include sassy-button('flat', 3px, 12px, $gob-blue, darken($gob-blue, 10%), white, 'inset')
 }
 
 /**

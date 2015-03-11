@@ -27,7 +27,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px; }
-  /* line 38, ../../../.gem/ruby/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .l-header-wrapper:after,
   .l-main-menu:after,
   .l-main:after,
@@ -416,16 +416,16 @@
   border: 0;
   color: white;
   text-shadow: #05243e 0 -1px 0; }
-  /* line 15, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  /* line 15, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .gob-cl-button-primary:hover {
     text-decoration: none; }
-  /* line 42, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  /* line 42, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .gob-cl-button-primary:hover {
     background-color: #0d5b9c; }
-  /* line 44, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  /* line 44, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .gob-cl-button-primary:active {
     background-color: #0c538e; }
-  /* line 6, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  /* line 6, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .gob-cl-button-primary.disabled, .gob-cl-button-primary[disabled] {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
     opacity: 0.6;
@@ -434,7 +434,7 @@
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
-  /* line 74, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
+  /* line 74, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
   .gob-cl-button-primary::-moz-focus-inner {
     padding: 0 !important;
     margin: -1px !important; }
@@ -581,16 +581,16 @@ textarea.form-textarea {
   border: 0;
   color: white;
   text-shadow: #05243e 0 -1px 0; }
-  /* line 15, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  /* line 15, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .form-submit:hover {
     text-decoration: none; }
-  /* line 42, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  /* line 42, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .form-submit:hover {
     background-color: #0d5b9c; }
-  /* line 44, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  /* line 44, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .form-submit:active {
     background-color: #0c538e; }
-  /* line 6, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+  /* line 6, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .form-submit.disabled, .form-submit[disabled] {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
     opacity: 0.6;
@@ -599,7 +599,7 @@ textarea.form-textarea {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
-  /* line 74, ../../../.gem/ruby/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
+  /* line 74, ../../../../../var/lib/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/_sassy-buttons.sass */
   .form-submit::-moz-focus-inner {
     padding: 0 !important;
     margin: -1px !important; }
@@ -878,7 +878,7 @@ div.l-main-menu {
     padding: 0px 30px; }
 
 /**
- * Menu Principal
+ * Main menu
  */
 @media (min-width: 44em) {
   /* line 67, ../sass/base/_main_menu.scss */
@@ -969,16 +969,12 @@ img, media {
 .l-content .content-wrapper {
   background: white;
   padding: 25px; }
-  /* line 13, ../sass/base/_page.scss */
-  .l-content .content-wrapper img.imagen-destacada {
-    width: 100%;
-    height: auto; }
-  /* line 18, ../sass/base/_page.scss */
+  /* line 12, ../sass/base/_page.scss */
   .l-content .content-wrapper span.meta {
     margin: 30px 25px 0px;
     clear: both;
     display: block; }
-  /* line 23, ../sass/base/_page.scss */
+  /* line 18, ../sass/base/_page.scss */
   .l-content .content-wrapper h1.title {
     color: #0f69b4;
     padding-bottom: 20px;
@@ -987,120 +983,80 @@ img, media {
     line-height: 1.1em;
     font-weight: 500; }
 
-/* line 44, ../sass/base/_page.scss */
-.front .l-content .block .block__title {
-  font-size: 18px;
-  line-height: 1em;
-  font-weight: 500;
-  margin: 0 auto 15px; }
-/* line 51, ../sass/base/_page.scss */
-.front .l-content .block .block__content .views-row {
-  background: white;
-  overflow: auto;
-  border-bottom: 2px solid #bdc9d1;
-  margin: 0 0 20px; }
-/* line 61, ../sass/base/_page.scss */
-.front .l-content .block .block__content .block-noticias-destacadas .views-field-field-noticia-imagen img {
-  width: 100%; }
-/* line 64, ../sass/base/_page.scss */
-.front .l-content .block .block__content .block-noticias-destacadas .views-field-title {
-  padding: 10px;
-  float: left;
-  width: 50%; }
-/* line 69, ../sass/base/_page.scss */
-.front .l-content .block .block__content .block-noticias-destacadas .views-field-field-noticia-fecha,
-.front .l-content .block .block__content .block-noticias-destacadas .views-field-body {
-  float: right;
-  width: 50%;
-  padding: 10px; }
-
 /**
- * Background
- *
- * Por defecto el contenido tiene un fondo blanco, por lo que en 
- * algunos casos (listas de noticias, por ejemplo) hay que quitarlo
- * 
+ * Content
  */
-/* line 94, ../sass/base/_page.scss */
-.front .content-wrapper,
-.page-ministros .content-wrapper,
-.page-noticias .content-wrapper {
-  background: none; }
-
-/**
- * Contenido
- */
-/* line 102, ../sass/base/_page.scss */
+/* line 37, ../sass/base/_page.scss */
 .node__content {
   color: #475156; }
-  /* line 105, ../sass/base/_page.scss */
+  /* line 40, ../sass/base/_page.scss */
   .node__content a {
     color: #0f69b4; }
-    /* line 107, ../sass/base/_page.scss */
+    /* line 42, ../sass/base/_page.scss */
     .node__content a:hover {
       color: #045282;
       text-decoration: underline; }
-  /* line 112, ../sass/base/_page.scss */
+  /* line 47, ../sass/base/_page.scss */
   .node__content h3 {
     font-weight: 300;
     margin: 0 0 30px; }
-  /* line 116, ../sass/base/_page.scss */
+  /* line 51, ../sass/base/_page.scss */
   .node__content h4 {
     margin: 0 0 13px;
     font-weight: 300; }
-  /* line 120, ../sass/base/_page.scss */
+  /* line 55, ../sass/base/_page.scss */
   .node__content h5 {
     color: #0f69b4;
     margin: 0 0 10px; }
-  /* line 124, ../sass/base/_page.scss */
+  /* line 59, ../sass/base/_page.scss */
   .node__content blockquote {
     border-left: 2px solid #0f69b4;
     margin: 0;
     padding: 0 0 0 20px;
     line-height: 160%; }
-    /* line 129, ../sass/base/_page.scss */
+    /* line 64, ../sass/base/_page.scss */
     .node__content blockquote p {
       font-style: italic;
       font-size: 18px;
       line-height: 150%;
       margin: 0 0 35px;
       font-family: Georgia, Times, "Times New Roman", serif; }
-  /* line 137, ../sass/base/_page.scss */
+  /* line 72, ../sass/base/_page.scss */
   .node__content p {
     line-height: 180%;
     margin: 0 0 25px; }
-  /* line 141, ../sass/base/_page.scss */
+  /* line 76, ../sass/base/_page.scss */
   .node__content iframe, .node__content object {
     max-width: 100%; }
-  /* line 144, ../sass/base/_page.scss */
+  /* line 79, ../sass/base/_page.scss */
   .node__content ol, .node__content ul {
     padding-left: 25px;
     margin-bottom: 15px; }
-    /* line 147, ../sass/base/_page.scss */
+    /* line 82, ../sass/base/_page.scss */
     .node__content ol li, .node__content ul li {
       margin-bottom: 5px; }
-    /* line 150, ../sass/base/_page.scss */
+    /* line 85, ../sass/base/_page.scss */
     .node__content ol ol, .node__content ol ul, .node__content ul ol, .node__content ul ul {
       margin-bottom: 0; }
-  /* line 154, ../sass/base/_page.scss */
+  /* line 89, ../sass/base/_page.scss */
   .node__content ol li {
     list-style: decimal; }
-    /* line 156, ../sass/base/_page.scss */
+    /* line 91, ../sass/base/_page.scss */
     .node__content ol li ol {
       list-style: decimal; }
-  /* line 160, ../sass/base/_page.scss */
+  /* line 95, ../sass/base/_page.scss */
   .node__content ul li {
     list-style: disc; }
-    /* line 162, ../sass/base/_page.scss */
+    /* line 97, ../sass/base/_page.scss */
     .node__content ul li ul li {
       list-style: circle; }
 
-/* line 169, ../sass/base/_page.scss */
+/* line 103, ../sass/base/_page.scss */
 ul.pager {
   text-align: left;
   font-size: 16px;
   font-family: "gobCL", Tahoma, Verdana, Segoe, sans-serif; }
-  /* line 178, ../sass/base/_page.scss */
+  /* line 112, ../sass/base/_page.scss */
   ul.pager li.pager__item--current {
     padding: 5px 5px 2px;
     color: #e6e6e6;
