@@ -1,5 +1,5 @@
 name = Gob cl
-description = Theme que sigue la hoja de estilos ofrecidos por el Gobierno de Chile
+description = Base Theme designed for Chilean Government sites
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
