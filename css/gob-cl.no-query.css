@@ -957,6 +957,20 @@ div.l-main-menu {
     /* line 148, ../sass/base/_main_menu.scss */
     div.l-main-menu ul.menu li:hover ul {
       display: block !important; } }
+/* line 3, ../sass/base/_maintenance.scss */
+.maintenance-page.in-maintenance .l-page {
+  max-width: 70em;
+  margin: auto; }
+  /* line 7, ../sass/base/_maintenance.scss */
+  .maintenance-page.in-maintenance .l-page .l-header {
+    height: 100px; }
+  /* line 18, ../sass/base/_maintenance.scss */
+  .maintenance-page.in-maintenance .l-page .l-main {
+    padding: 20px;
+    background: white;
+    border-bottom: 2px solid #bdc9d1;
+    margin: 0px 10px; }
+
 /* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
