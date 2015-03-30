@@ -158,7 +158,12 @@
       </div>
     </div>
 
-    <?php print render($page['sidebar_first']); ?>
+    <?php if ($page['sidebar_first'] || $page['sidebar_second']  ): ?>
+      <div class="l-region-sidebars-wrapper">
+        <?php print render($page['sidebar_first']); ?>
+        <?php print render($page['sidebar_second']); ?>
+      </div>
+    <?php endif ?>
     
     <div class="l-region--bottom-wrapper">
       <?php print render($page['bottom_first']); ?>
